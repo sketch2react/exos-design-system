@@ -1,0 +1,11 @@
+{
+  "name": "@sketch2react/exos-design-system",
+  "productName": "Exos design system",
+  "version": "0.0.1",
+  "dependencies": {
+    "style-dictionary": "^3.0.0-rc.9"
+  },
+  "scripts": {
+    "build": "style-dictionary build"
+  }
+}

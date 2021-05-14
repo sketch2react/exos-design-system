@@ -1,0 +1,22 @@
+{
+  "name": "@sketch2react/exos-tokens",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "clean": "rimraf stratos && rimraf js && rimraf scss",
+    "build": "npm run clean && npx babel src --out-dir . && npm run copy-scss",
+    "start": "npm run clean && npx babel src --watch --out-dir .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-scss": "mkdir scss && cp ./src/scss/*.* ./scss/",
+    "package-tarball": "npm run build && npm pack"
+  },
+  "author": "Team Sketch2React",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "rimraf": "^3.0.2"
+  }
+}
