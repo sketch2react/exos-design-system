@@ -1,7 +1,12 @@
 {
-  "name": "core-react",
+  "name": "@sketch2react/core-react",
   "version": "0.1.0",
   "private": true,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
@@ -22,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +59,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/preset-react": "^7.13.13",
     "@storybook/addon-actions": "^6.2.9",
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.2.9",
