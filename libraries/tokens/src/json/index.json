@@ -1,0 +1,17 @@
+{
+  "ComponentButtonSecondaryBackgroundColor": "#0b76ff",
+  "ComponentButtonSecondaryColor": "#ffffff",
+  "ComponentButtonSecondaryBorderColor": "#0b76ff",
+  "ComponentButtonPrimaryBackgroundColor": "#ffffff",
+  "ComponentButtonPrimaryColor": "#0c0745",
+  "ComponentButtonPrimaryBorderColor": "#0c0745",
+  "ComponentButtonFontSize": "0.875rem",
+  "ComponentButtonFontFamily": "WorkSans, Work Sans",
+  "ComponentButtonLineHeight": "1rem",
+  "ComponentButtonBorderRadius": "1.1875rem",
+  "ComponentButtonBorderWidth": "0.125rem",
+  "ComponentButtonPaddingTop": "0.3125rem",
+  "ComponentButtonPaddingBottom": "0.3124999999999992rem",
+  "ComponentButtonPaddingRight": "2rem",
+  "ComponentButtonPaddingLeft": "2rem"
+}

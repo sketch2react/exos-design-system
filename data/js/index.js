@@ -1,4 +1,4 @@
-import { color } from './color'
+import { component } from './component'
 
 export { 
-color }
+component }

@@ -4,11 +4,13 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "clean": "rimraf stratos && rimraf js && rimraf scss",
-    "build": "npm run clean && npx babel src --out-dir . && npm run copy-scss",
+    "clean": "rimraf stratos && rimraf js && rimraf scss && rimraf less && rimraf css",
+    "build": "npm run clean && npx babel src --out-dir . && npm run copy-scss && npm run copy-less && npm run copy-css",
     "start": "npm run clean && npx babel src --watch --out-dir .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-scss": "mkdir scss && cp ./src/scss/*.* ./scss/",
+    "copy-scss": "copyfiles -u 2 \"src/scss/*.*\" scss",
+    "copy-less": "copyfiles -u 2 \"src/less/*.*\" less",
+    "copy-css": "copyfiles -u 2 \"src/css/*.*\" css",
     "package-tarball": "npm run build && npm pack"
   },
   "author": "Team Sketch2React",
@@ -17,6 +19,7 @@
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
+    "copyfiles": "^2.4.1",
     "rimraf": "^3.0.2"
   }
 }

@@ -1,0 +1,22 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 09 Jun 2021 19:58:46 GMT
+ */
+
+:root {
+  --component-button-padding-left: 2rem;
+  --component-button-padding-right: 2rem;
+  --component-button-padding-bottom: 0.3124999999999992rem;
+  --component-button-padding-top: 0.3125rem;
+  --component-button-border-width: 0.125rem;
+  --component-button-border-radius: 1.1875rem;
+  --component-button-line-height: 1rem;
+  --component-button-font-family: WorkSans, Work Sans;
+  --component-button-font-size: 0.875rem;
+  --component-button-primary-border-color: #0c0745;
+  --component-button-primary-color: #0c0745;
+  --component-button-primary-background-color: rgba(255, 255, 255, 0);
+  --component-button-secondary-border-color: #0b76ff;
+  --component-button-secondary-color: #ffffff;
+  --component-button-secondary-background-color: #0b76ff;
+}

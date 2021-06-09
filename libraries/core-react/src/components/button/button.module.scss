@@ -1,0 +1,23 @@
+@import "node_modules/@sketch2react/exos-tokens/scss";
+
+.button {
+  border: solid $component-button-border-width $component-button-primary-border-color;
+  background: $component-button-primary-background-color;
+  cursor: pointer;
+  padding: $component-button-padding-top $component-button-padding-right $component-button-padding-bottom $component-button-padding-left;
+  display: flex;
+  font-size: $component-button-font-size;
+  font-family: $component-button-font-family, sans-serif;
+  color: $component-button-primary-color;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: $component-button-border-radius;
+  line-height: $component-button-line-height;
+
+  &.secondary {
+    background: $component-button-secondary-background-color;
+    border-color: $component-button-secondary-border-color;
+    color: $component-button-secondary-color;
+  }
+}

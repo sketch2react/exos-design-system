@@ -6,6 +6,6 @@
     "style-dictionary": "^3.0.0-rc.9"
   },
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "node ./styledictionary/config-extended.js"
   }
 }

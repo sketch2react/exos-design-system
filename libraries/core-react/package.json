@@ -8,6 +8,7 @@
     ]
   },
   "dependencies": {
+    "@sketch2react/exos-tokens": "file:../tokens/sketch2react-exos-tokens-0.0.1.tgz",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -15,6 +16,7 @@
     "@types/node": "^12.20.13",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.5",
+    "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -66,6 +68,11 @@
     "@storybook/addon-links": "^6.2.9",
     "@storybook/node-logger": "^6.2.9",
     "@storybook/preset-create-react-app": "^3.1.7",
-    "@storybook/react": "^6.2.9"
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.2.9",
+    "css-loader": "^5.2.6",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^2.0.0"
   }
 }

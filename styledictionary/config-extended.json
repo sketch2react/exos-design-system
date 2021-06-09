@@ -1,0 +1,64 @@
+{
+  "source": ["data/json/**/*.json"],
+  "platforms": {
+    "js": {
+      "transformGroup": "js-extended",
+      "buildPath": "libraries/tokens/src/js/",
+      "files": [
+        {
+          "destination": "index.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss-extended",
+      "buildPath": "libraries/tokens/src/scss/",
+      "files": [
+        {
+          "destination": "index.scss",
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "less": {
+      "transformGroup": "less-extended",
+      "buildPath": "libraries/tokens/src/less/",
+      "files": [
+        {
+          "destination": "index.less",
+          "format": "less/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css-extended",
+      "buildPath": "libraries/tokens/src/css/",
+      "files": [
+        {
+          "destination": "index.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "json-flat": {
+      "transformGroup": "js-extended",
+      "buildPath": "libraries/tokens/src/json/",
+      "files": [
+        {
+          "destination": "index.json",
+          "format": "json/flat"
+        }
+      ]
+    }
+  }
+}
